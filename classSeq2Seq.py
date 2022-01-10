@@ -1,4 +1,14 @@
 import torch.nn as nn
+from fairseq.models import (
+    FairseqEncoder, 
+    FairseqIncrementalDecoder,
+    FairseqEncoderDecoderModel
+)
+from fairseq.models.transformer import (
+    TransformerEncoder, 
+    TransformerDecoder,
+)
+
 class Seq2Seq(FairseqEncoderDecoderModel):
     def __init__(self, args, encoder, decoder):
         super().__init__(encoder, decoder)
