@@ -1,3 +1,4 @@
+from pathlib import Path
 def strQ2B(ustring):
     """把字串全形轉半形"""
     # 參考來源:https://ithelp.ithome.com.tw/articles/10233122
