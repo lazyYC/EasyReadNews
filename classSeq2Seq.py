@@ -1,3 +1,4 @@
+import torch.nn as nn
 class Seq2Seq(FairseqEncoderDecoderModel):
     def __init__(self, args, encoder, decoder):
         super().__init__(encoder, decoder)

@@ -1,3 +1,7 @@
+from pathlib import Path
+from config import *
+import torch
+
 def try_load_checkpoint(model, optimizer=None, name=None):
     name = name if name else "checkpoint_last.pt"
     checkpath = Path(config.savedir)/name
