@@ -1,2 +1,2 @@
 # EasyReadNews
-### 請見inpynb說明
+### 請見ipynb說明
