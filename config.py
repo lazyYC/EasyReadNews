@@ -1,7 +1,7 @@
 from argparse import Namespace
 config = Namespace(
     datadir = "./DATA/data-bin/ted2020",
-    savedir = "./checkpoints/rnn",
+    savedir = "./checkpoints/transformer",
     source_lang = "en",
     target_lang = "zh",
     
